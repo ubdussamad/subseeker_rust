@@ -26,7 +26,7 @@ fn create_hash(file: File, fsize: u64) -> Result<String, std::io::Error> {
     Ok(hash_string)
 }
 
-fn main() {
+fn main_exec() {
     let fname = "aa.mkv";
     let fsize = fs::metadata(fname).unwrap().len();
     if fsize>HASH_BLK_SIZE {
