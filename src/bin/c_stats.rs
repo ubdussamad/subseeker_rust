@@ -12,18 +12,22 @@
 // given the user adds this documentaion atop the media.
 // Documentation and usage terms are subject to change.
 // Read adyybnhc1kge2b.onion for more details.
-extern crate regex;
+extern crate regex
 use regex::Regex;
 
 fn main () {
     let re = Regex::new(r"^\d{4}-\d{2}-\d{2}$").unwrap();
-    let foo :i32 = 12;
-    let bar :i32 = 12;
-    println!("The sum of foo and bar is: {}.",sum(foo,bar));
-    println!("Found date: {}" , assert!(re.is_match("2014-01-01")));   
+    find_dominant_spacer();
 }
 
-fn sum ( x : i32 , y : i32 ) -> i32  {
-    
-    return x + y
+
+fn find_dominant_spacer () {
+    println!("Hello this is Samad!");
+    let sample_seprators: [char; 5];
+    sample_seprators = ['a','b','c','d','e'];
+    for i in sample_seprators.iter() {
+        println! ( " {} " , i );
+    }
+    return;
 }
+

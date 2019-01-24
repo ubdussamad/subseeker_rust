@@ -1,1 +1,0 @@
-samad@samad-Latitude-E6400.17558:1545716266

@@ -1,0 +1,32 @@
+// ||||||||||||||||||| Comparison Statics
+// Simple Statistical methods for comparing
+// strings (Non Case Sensitive) for best hit selection.
+// Authors: Mohammed S. Haque , Steve Aron Jr. , Hemant Arora (Co-author)
+// ----------Required Declaration-------------
+// This file contains comparison methods
+// which have minor traces of code that 
+// is derived or inspired from the
+// Hidden Analysis toolkit's source code.
+// All the derived techniques are DECLASSIFIED
+// for public usage and are FREE to distribute
+// given the user adds this documentaion atop the media.
+// Documentation and usage terms are subject to change.
+// Read adyybnhc1kge2b.onion for more details.
+extern crate regex;
+//use regex::Regex;
+
+fn main () {
+    //let re = Regex::new(r"^\d{4}-\d{2}-\d{2}$").unwrap();
+    find_dominant_spacer();
+}
+
+
+fn find_dominant_spacer () {
+    println!("Hello this is Samad!");
+    let sample_seprators [char; 5] = ['a','b','c','d','e'];//['\s','[_]','[-]','[.]','[~]'];
+    for i in sample_seprators {
+        println! ( " {} " , i );
+    }
+    
+    return;
+}
